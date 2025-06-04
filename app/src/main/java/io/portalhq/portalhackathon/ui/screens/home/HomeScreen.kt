@@ -245,7 +245,7 @@ private fun ColumnScope.TransferToken(viewModel: HomeViewModel, viewState: HomeV
     }
 
     var amount by remember {
-        mutableStateOf("5")
+        mutableStateOf("0.001")
     }
 
     var selectedToken by remember {

@@ -82,7 +82,7 @@ class PortalRepository @Inject constructor(
         val chainId = BlockChainConstants.ARBITRUM_SEPOLIA
         val params = FundParams(
             amount = "0.01", // Request 0.01
-            token = "NATIVE"  // Native token
+            token = BlockChainConstants.MXNB_TOKEN_SYMBOL
         )
 
         // Fund the Portal wallet
