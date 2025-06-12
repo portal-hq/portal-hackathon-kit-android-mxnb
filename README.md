@@ -20,7 +20,8 @@ Portal SDK also covers the following backup methods which were not covered in th
 1. Clone the repo to your local system
 2. Open the project in your Android Studio
 3. Go to your Portal Dashboard [settings page](https://app.portalhq.io/settings#client-api-keys) and create a client test API key (screenshots are attached below for your convenience)
-4. Update the **PORTAL_CLIENT_API_KEY** field in `app/src/main/java/io/portalhq/portalhackathon/core/commonconstants/PortalConstants.kt` with your Portal client id
+4. Update the **PORTAL_CLIENT_API_KEY** field in `app/src/main/java/io/portalhq/portalhackathon/core/commonconstants/PortalConstants.kt` with a Portal client API key
+5. Update the **ALCHEMY_API_KEY** in `app/src/main/java/io/portalhq/portalhackathon/core/commonconstants/BlockChainConstants.kt` with an Alchemy API key (you can get one [here](https://www.alchemy.com)).
 5. Run the app and it should work without any issues
 
 ## Understanding the Example App
